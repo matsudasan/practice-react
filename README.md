@@ -44,3 +44,17 @@ http://localhost:6006/  で起動
 
 ## build-storybook
 デフォルトでstorybook-static ディレクトリーに Storybook が静的サイトとして出力される
+
+## Install Storybook
+
+```
+npx sb init
+```
+
+インストールはこっちのコマンドでやるとv6系が入る
+
+```
+npx -p @storybook/cli sb init
+```
+
+こっちだとv5系が入るので基本は上のコマンドでOK
